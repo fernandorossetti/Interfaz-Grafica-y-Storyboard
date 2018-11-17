@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="V2M-Ci-Fvb">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
+    </dependencies>
+    <scenes>
+        <!--Ingredientes y Elaboracion-->
+        <scene sceneID="tEy-N7-VMB">
+            <objects>
+                <viewController id="xok-29-fhJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a75-oA-iBQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="7JB-TL-0w1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9aG-dM-e4z">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qMI-ky-r9U">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="536" id="HuW-db-UAq"/>
+                                    <constraint firstAttribute="width" constant="600" id="VDF-kh-y7J"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">INGREDIENTES                                                                                                                                                                                                                                    750 gramos de cuello de cordero ,1 cebolla morada, 3-4 dientes de ajo, 2 c/p generosas de pulpa de pimiento choricero, 1 kilo de patatas, 1 c/c de pimentón agridulce, c/n de pimienta negra recién molida, ½ c/c de comino molido, c/n de sal, 3-4 ramitas de tomillo fresco, c/n de aceite de oliva virgen extra.
+
+ELABORACION
+
+Prepara la carne para el guiso, puedes cortar el cordero al gusto. Pela la cebolla y pícala en brunoise, pela los dientes de ajo y dales un golpe para que se rompan. La pulpa de pimiento choricero es mejor si la sacas de los pimientos rehidratados, pero ocasionalmente también se puede recurrir a los tarritos de pulpa comerciales.
+Pela las patatas y cháscalas, es decir, córtalas un poco con el cuchillo y después rómpelas para obtener los trozos (de tamaño bocado) de modo que expulsen el almidón cuando se guisen para espesar la salsa.
+Pon una olla grande a calentar con un poco de aceite de oliva virgen extra y dora el cordero por los dos lados, añádele sal al gusto. Si es necesario dóralo en tandas, no lo amontones. Cuando el cordero se haya dorado y haya dejado su sabor en la olla, retíralo y reserva.                                                                                                                 Baja el fuego y pocha la cebolla hasta que esté bien tierna, entonces incorpora los ajos, sube el fuego y dale un par de vueltas. Reincorpora el cordero, añade las patatas, el pimiento choricero, el pimentón, la pimienta, el comino y la sal. Incorpora también el tomillo deshojado. Dale un par de vueltas para que se repartan los condimentos y moja con agua caliente hasta cubrir.
+Lleva a ebullición y a continuación baja el fuego, cuece con la olla semi-tapada hasta que las patatas estén tiernas y la carne hecha al gusto, pueden ser necesarios unos 30 minutos. De vez en cuando mueve con una cuchara de madera para que el almidón vaya saliendo y espesando la salsa.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qMI-ky-r9U" firstAttribute="top" secondItem="a75-oA-iBQ" secondAttribute="bottom" id="90E-hv-bC5"/>
+                            <constraint firstItem="qMI-ky-r9U" firstAttribute="leading" secondItem="9aG-dM-e4z" secondAttribute="leadingMargin" constant="-20" id="Hj6-04-cO8"/>
+                            <constraint firstItem="7JB-TL-0w1" firstAttribute="top" secondItem="qMI-ky-r9U" secondAttribute="bottom" id="QiB-8p-jUi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qMI-ky-r9U" secondAttribute="trailing" constant="-20" id="n7x-PV-qOS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ingredientes y Elaboracion" id="Yh3-J9-uZd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U3h-aC-x1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172" y="631"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9Bo-9d-bwK">
+            <objects>
+                <viewController id="dBw-yO-gZI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7vN-nx-IQT"/>
+                        <viewControllerLayoutGuide type="bottom" id="dOt-Jh-bad"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aku-N5-Dts">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="receta-cordero" translatesAutoresizingMaskIntoConstraints="NO" id="XIf-sw-1LQ">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="ZFM-X9-ms6"/>
+                                    <constraint firstAttribute="width" constant="300" id="udG-t0-CKg"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="receta-cordero1" translatesAutoresizingMaskIntoConstraints="NO" id="c07-SK-Aef">
+                                <rect key="frame" x="0.0" y="100" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="pTi-JV-qE7"/>
+                                    <constraint firstAttribute="height" constant="100" id="ywm-Us-Cfa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="receta-cordero2" translatesAutoresizingMaskIntoConstraints="NO" id="swd-tC-4Mb">
+                                <rect key="frame" x="0.0" y="200" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="sPm-bs-Ag1"/>
+                                    <constraint firstAttribute="width" constant="300" id="z64-sk-5VW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="swd-tC-4Mb" firstAttribute="leading" secondItem="aku-N5-Dts" secondAttribute="leading" id="3Da-Xy-HSm"/>
+                            <constraint firstItem="c07-SK-Aef" firstAttribute="top" secondItem="XIf-sw-1LQ" secondAttribute="bottom" id="FcD-eV-Ozl"/>
+                            <constraint firstItem="XIf-sw-1LQ" firstAttribute="top" secondItem="aku-N5-Dts" secondAttribute="top" id="T2i-Lk-qVg"/>
+                            <constraint firstItem="swd-tC-4Mb" firstAttribute="leading" secondItem="c07-SK-Aef" secondAttribute="leading" id="Xc6-po-2iD"/>
+                            <constraint firstItem="swd-tC-4Mb" firstAttribute="top" secondItem="c07-SK-Aef" secondAttribute="bottom" id="b1Y-bZ-9gC"/>
+                            <constraint firstItem="swd-tC-4Mb" firstAttribute="leading" secondItem="XIf-sw-1LQ" secondAttribute="leading" id="w26-X0-tWj"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="300" height="300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GPm-CG-iGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-836" y="631"/>
+        </scene>
+        <!--Nuestras Recetas-->
+        <scene sceneID="cYq-gc-fcf">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="xJ3-iu-AlZ" customClass="TableViewController" customModule="EvaluacionFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="7mQ-kF-foQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell 1" textLabel="opq-Dq-caf" style="IBUITableViewCellStyleDefault" id="gft-uD-WWR">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gft-uD-WWR" id="Dfd-l1-Ijy">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Guiso de Cordero" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="opq-Dq-caf">
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="hyX-Si-YyM" kind="showDetail" id="8P8-3Y-5dq"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell 2" textLabel="Srq-UM-sBE" style="IBUITableViewCellStyleDefault" id="Dy5-sj-wM4">
+                                <rect key="frame" x="0.0" y="136" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dy5-sj-wM4" id="iPo-aJ-ctj">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Arroz con Pollo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Srq-UM-sBE">
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Sum-M4-wdJ" kind="showDetail" id="oA0-5D-aFa"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell 3" textLabel="BUO-7Q-qTM" style="IBUITableViewCellStyleDefault" id="rym-No-bdz">
+                                <rect key="frame" x="0.0" y="180" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rym-No-bdz" id="9Nx-zS-K3Q">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Empanadas de Carne" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BUO-7Q-qTM">
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="wbq-ss-E0K" kind="showDetail" id="MOL-6b-6wh"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell 4" textLabel="yJE-bm-UyV" style="IBUITableViewCellStyleDefault" id="qmW-Nt-suX">
+                                <rect key="frame" x="0.0" y="224" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qmW-Nt-suX" id="Tcm-Qb-UxD">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Ñoquis de Papa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yJE-bm-UyV">
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="A6W-Xd-bof" kind="showDetail" id="dc8-TS-fM8"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xJ3-iu-AlZ" id="p7J-KV-0je"/>
+                            <outlet property="delegate" destination="xJ3-iu-AlZ" id="VWD-JH-1DM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Nuestras Recetas" id="sVP-S9-eO8"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0V-mA-Nk8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1707" y="350"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SND-Tg-bZX">
+            <objects>
+                <navigationController id="9ta-NQ-Md2" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rn4-VJ-RVN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="xJ3-iu-AlZ" kind="relationship" relationship="rootViewController" id="9Xw-WR-lhs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3NL-Bi-kWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2547" y="350"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="osw-GJ-rmS">
+            <objects>
+                <splitViewController id="V2M-Ci-Fvb" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="9ta-NQ-Md2" kind="relationship" relationship="masterViewController" id="87Y-W1-CcG"/>
+                        <segue destination="hyX-Si-YyM" kind="relationship" relationship="detailViewController" id="EbI-pA-nQR"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BkY-Gh-y9T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3375" y="350"/>
+        </scene>
+        <!--Guiso de cordero-->
+        <scene sceneID="YfU-3g-H5z">
+            <objects>
+                <viewController id="YUh-4Y-ixP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NCP-UE-wrE"/>
+                        <viewControllerLayoutGuide type="bottom" id="HRH-og-jhI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BmV-Rp-NPP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guiso_cordero" translatesAutoresizingMaskIntoConstraints="NO" id="ryL-TL-qBC">
+                                <rect key="frame" x="20" y="72" width="291" height="145"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="Luq-cL-C3a"/>
+                                    <constraint firstAttribute="width" secondItem="ryL-TL-qBC" secondAttribute="height" multiplier="291:145" id="m2h-OJ-k3P"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hC-fq-vdL">
+                                <rect key="frame" x="319" y="121" width="183" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="NEh-Xj-xr0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbH-Tc-lQ8">
+                                <rect key="frame" x="531" y="187" width="49" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="IZK-O3-zC5"/>
+                                    <constraint firstAttribute="width" constant="49" id="NRI-0V-xYE"/>
+                                </constraints>
+                                <state key="normal" title="Galeria"/>
+                                <connections>
+                                    <segue destination="dBw-yO-gZI" kind="popoverPresentation" popoverAnchorView="fbH-Tc-lQ8" id="D6W-6D-Cn7">
+                                        <segue key="commit" destination="dBw-yO-gZI" kind="popoverPresentation" popoverAnchorView="fbH-Tc-lQ8" id="kV1-cd-kIy">
+                                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                        </segue>
+                                        <segue key="preview" destination="dBw-yO-gZI" identifier="" id="lrZ-hY-TVs"/>
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ct9-Jk-rYe">
+                                <rect key="frame" x="20" y="280" width="580" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="b0t-SM-mAL"/>
+                                </constraints>
+                                <string key="text">Poco hay que presentar de un guiso básico de patatas con carne, aunque hay muchísimas recetas diferentes, quizá tantas como cocineros, es un plato que lo dice todo cuando se lleva a la boca. En esta época lo que apetecen son platos reconfortantes, que nos llenen de calor el cuerpo y de sabor el paladar, sin olvidar lo más importante que es la parte nutritiva, y este Guiso tradicional de cordero con patatas lo es.
+Aunque el cordero es una carne más grasa que otras (y aún lo es más el cuello, que es sabrosísimo), es un plato nutritivo y sano, sólo hay que cuidar el resto del menú, por ejemplo empezando con una ensalada o unas verduras. Para quienes se inicien en la cocina, este guiso de cordero con patatas es ideal porque es muy fácil de hacer. Aquí tenéis una receta para cualquier día de la semana, pues además es muy económico.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="An5-ot-UdW">
+                                <rect key="frame" x="20" y="251" width="92" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7EL-nD-b0S"/>
+                                    <constraint firstAttribute="width" constant="92" id="SAb-Az-5kv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khg-fb-lU1">
+                                <rect key="frame" x="197" y="488" width="206" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="206" id="Z1G-am-lvW"/>
+                                </constraints>
+                                <state key="normal" title="Receta"/>
+                                <connections>
+                                    <segue destination="xok-29-fhJ" kind="show" id="aja-g3-oge"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ryL-TL-qBC" firstAttribute="leading" secondItem="BmV-Rp-NPP" secondAttribute="leadingMargin" id="8eU-yz-E6x"/>
+                            <constraint firstItem="Khg-fb-lU1" firstAttribute="centerX" secondItem="BmV-Rp-NPP" secondAttribute="centerX" id="B7A-Ze-8l0"/>
+                            <constraint firstItem="fbH-Tc-lQ8" firstAttribute="top" secondItem="NCP-UE-wrE" secondAttribute="bottom" constant="123" id="Dwa-Kh-y8v"/>
+                            <constraint firstItem="4hC-fq-vdL" firstAttribute="leading" secondItem="ryL-TL-qBC" secondAttribute="trailing" constant="8" symbolic="YES" id="Fgo-xP-7AG"/>
+                            <constraint firstAttribute="trailing" secondItem="ct9-Jk-rYe" secondAttribute="trailing" id="K0h-x5-gCC"/>
+                            <constraint firstItem="An5-ot-UdW" firstAttribute="top" secondItem="ryL-TL-qBC" secondAttribute="bottom" constant="34" id="L4i-Y1-dk6"/>
+                            <constraint firstItem="ryL-TL-qBC" firstAttribute="bottom" secondItem="fbH-Tc-lQ8" secondAttribute="bottom" id="Qdq-uz-zyb"/>
+                            <constraint firstItem="ryL-TL-qBC" firstAttribute="leading" secondItem="ct9-Jk-rYe" secondAttribute="leading" id="W6y-IU-h6D"/>
+                            <constraint firstItem="ct9-Jk-rYe" firstAttribute="top" secondItem="fbH-Tc-lQ8" secondAttribute="bottom" constant="63" id="e9X-JN-db8"/>
+                            <constraint firstItem="ryL-TL-qBC" firstAttribute="leading" secondItem="An5-ot-UdW" secondAttribute="leading" id="eUD-9i-sXb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4hC-fq-vdL" secondAttribute="trailing" constant="78" id="iae-fR-LIc"/>
+                            <constraint firstItem="Khg-fb-lU1" firstAttribute="top" secondItem="ct9-Jk-rYe" secondAttribute="bottom" constant="8" symbolic="YES" id="jvv-CX-a1w"/>
+                            <constraint firstItem="4hC-fq-vdL" firstAttribute="top" secondItem="NCP-UE-wrE" secondAttribute="bottom" constant="57" id="mbv-fu-F8r"/>
+                            <constraint firstItem="ryL-TL-qBC" firstAttribute="top" secondItem="NCP-UE-wrE" secondAttribute="bottom" constant="8" symbolic="YES" id="po2-d9-84l"/>
+                            <constraint firstItem="fbH-Tc-lQ8" firstAttribute="trailing" secondItem="BmV-Rp-NPP" secondAttribute="trailingMargin" id="ue8-s9-c7R"/>
+                            <constraint firstItem="An5-ot-UdW" firstAttribute="leading" secondItem="BmV-Rp-NPP" secondAttribute="leadingMargin" id="wzn-pI-ZMg"/>
+                            <constraint firstItem="fbH-Tc-lQ8" firstAttribute="trailing" secondItem="BmV-Rp-NPP" secondAttribute="trailingMargin" id="zM9-Bt-WRV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Guiso de cordero" id="9I8-3y-6Dp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zcf-J1-k7L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172" y="-52"/>
+        </scene>
+        <!--Arroz con Pollo-->
+        <scene sceneID="OiK-JF-bvb">
+            <objects>
+                <viewController id="6NP-nz-teB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F52-A2-KD8"/>
+                        <viewControllerLayoutGuide type="bottom" id="EwF-Ml-0nr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zeq-Ow-s5I">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arroz con pollo" translatesAutoresizingMaskIntoConstraints="NO" id="cv9-pw-7KZ">
+                                <rect key="frame" x="20" y="72" width="291" height="145"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="0wO-Va-Tjg"/>
+                                    <constraint firstAttribute="width" constant="291" id="zdB-Dr-wXc"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JgZ-xC-f2M">
+                                <rect key="frame" x="20" y="324" width="580" height="156"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="156" id="zIs-t5-tgS"/>
+                                </constraints>
+                                <string key="text">Me maravilla ver las similitudes que existen en una misma receta que consideramos típica o autóctona de nuestro país. El Arroz con Pollo es el puro ejemplo de lo que les acabo de mencionar, pues es un plato que se come en todos los hogares de latinoamericanos. Y a pesar de que en cada país varía en su preparación o presentación, todos usamos ingredientes básicos en común, para darle el auténtico sabor y toque personal. En casa solemos preparar dos deliciosas versiones del arroz con pollo, la puertorriqueña y esta receta argentina, que la heredé de mi querida suegra en uno de mis viajes familiares.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvg-Qj-qEG">
+                                <rect key="frame" x="20" y="295" width="92" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="Wza-I1-TMD"/>
+                                    <constraint firstAttribute="height" constant="21" id="du0-mt-VMD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvA-Pm-x0M">
+                                <rect key="frame" x="197" y="488" width="206" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="206" id="M9K-pc-Y5A"/>
+                                </constraints>
+                                <state key="normal" title="Receta"/>
+                                <connections>
+                                    <segue destination="3ze-0W-QM1" kind="show" id="gFf-TM-woV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1r-vg-7Ej">
+                                <rect key="frame" x="531" y="187" width="49" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="3m8-tZ-8gN"/>
+                                    <constraint firstAttribute="height" constant="30" id="EHT-eu-BTI"/>
+                                </constraints>
+                                <state key="normal" title="Galeria"/>
+                                <connections>
+                                    <segue destination="C52-YS-MHR" kind="popoverPresentation" popoverAnchorView="Z1r-vg-7Ej" id="MSw-Gq-iqk">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Z1r-vg-7Ej" firstAttribute="trailing" secondItem="Zeq-Ow-s5I" secondAttribute="trailingMargin" id="3H1-dD-bnE"/>
+                            <constraint firstItem="Fvg-Qj-qEG" firstAttribute="leading" secondItem="Zeq-Ow-s5I" secondAttribute="leadingMargin" id="6MK-z1-zbA"/>
+                            <constraint firstItem="cv9-pw-7KZ" firstAttribute="leading" secondItem="JgZ-xC-f2M" secondAttribute="leading" id="6wy-cr-68b"/>
+                            <constraint firstItem="cv9-pw-7KZ" firstAttribute="leading" secondItem="Fvg-Qj-qEG" secondAttribute="leading" id="6xe-jd-CCE"/>
+                            <constraint firstItem="cv9-pw-7KZ" firstAttribute="bottom" secondItem="Z1r-vg-7Ej" secondAttribute="bottom" id="7Oe-OP-Wee"/>
+                            <constraint firstItem="Fvg-Qj-qEG" firstAttribute="top" secondItem="cv9-pw-7KZ" secondAttribute="bottom" constant="78" id="EJH-gQ-QjN"/>
+                            <constraint firstItem="cv9-pw-7KZ" firstAttribute="top" secondItem="F52-A2-KD8" secondAttribute="bottom" constant="8" symbolic="YES" id="J4p-ia-mh3"/>
+                            <constraint firstItem="Z1r-vg-7Ej" firstAttribute="trailing" secondItem="Zeq-Ow-s5I" secondAttribute="trailingMargin" id="N77-L6-pvQ"/>
+                            <constraint firstItem="MvA-Pm-x0M" firstAttribute="centerX" secondItem="Zeq-Ow-s5I" secondAttribute="centerX" id="Smz-eY-duz"/>
+                            <constraint firstItem="MvA-Pm-x0M" firstAttribute="top" secondItem="JgZ-xC-f2M" secondAttribute="bottom" constant="8" symbolic="YES" id="Ykp-Y2-0UJ"/>
+                            <constraint firstItem="JgZ-xC-f2M" firstAttribute="top" secondItem="Fvg-Qj-qEG" secondAttribute="bottom" constant="8" symbolic="YES" id="aLe-QZ-fH9"/>
+                            <constraint firstItem="cv9-pw-7KZ" firstAttribute="leading" secondItem="Zeq-Ow-s5I" secondAttribute="leadingMargin" id="dC8-Yh-qce"/>
+                            <constraint firstAttribute="trailing" secondItem="JgZ-xC-f2M" secondAttribute="trailing" id="e4N-gj-p36"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Arroz con Pollo" id="ufF-Vw-pLp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bCk-ix-AKk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1246" y="-52"/>
+        </scene>
+        <!--Ingredientes y Elaboracion-->
+        <scene sceneID="CLf-0Q-Emc">
+            <objects>
+                <viewController id="3ze-0W-QM1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kXd-6Y-dXL"/>
+                        <viewControllerLayoutGuide type="bottom" id="JJo-uH-WKy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qgo-n5-h3S">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d1w-fO-Xjl">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="536" id="V5w-ec-Vjq"/>
+                                    <constraint firstAttribute="width" constant="600" id="zjb-9D-nTF"/>
+                                </constraints>
+                                <string key="text">INGREDIENTES                                                                                                                               
+8 presas (piezas) de pollo, con hueso
+3 cucharadas de aceite vegetal, reserva una para la preparación del arroz
+1 cebolla mediana
+1/2 pimiento morrón verde
+1/2 pimiento morrón rojo
+1/2 taza de salsa de tomate
+4 tazas de caldo de pollo
+1/2 cucharadita de condimento Bijol®
+2 tazas de arroz cocido
+1 taza de arvejas (chícharos), cocidas
+1 taza de zanahorias, cocidas                                                                                                                               
+                                                                                                                                            ELABORACION                                                                                                                      
+1                                                                                                                                                                     Dora las presas de pollo por ambos lados en un sartén grande a fuego medio, con dos cucharadas de aceite. Hazlo poco a poco para que se doren bien. Reserva y mantenlas a temperatura.
+2
+Corta la cebolla y los pimientos en cuadritos y sofríelos en un caldero con una cucharada de aceite hasta cristalizar.
+3
+Agrega la salsa de tomate, el caldo de pollo, bijol y las presas. Cocina a fuego medio-bajo hasta que el pollo esté cocido en su totalidad, aproximadamente 1 hora.
+4
+Sirve el arroz ya cocido en una fuente y viérte el guiso de pollo. Mezcla bien. Acomoda las presas de pollo.
+5
+Agrega las arvejas y zanahorias. Sirve.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="d1w-fO-Xjl" secondAttribute="trailing" constant="-20" id="JsP-Fg-1Ng"/>
+                            <constraint firstItem="d1w-fO-Xjl" firstAttribute="top" secondItem="kXd-6Y-dXL" secondAttribute="bottom" id="XrO-5n-K5b"/>
+                            <constraint firstItem="JJo-uH-WKy" firstAttribute="top" secondItem="d1w-fO-Xjl" secondAttribute="bottom" id="sWZ-vY-RAc"/>
+                            <constraint firstItem="d1w-fO-Xjl" firstAttribute="leading" secondItem="Qgo-n5-h3S" secondAttribute="leadingMargin" constant="-20" id="uSn-TG-Rsa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ingredientes y Elaboracion" id="VhK-2P-qOd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5pK-1B-CJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1246" y="631"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="X4d-4J-uDr">
+            <objects>
+                <viewController id="C52-YS-MHR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b3x-ra-Q1V"/>
+                        <viewControllerLayoutGuide type="bottom" id="CJJ-V2-k9K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="afD-5i-f8j">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arroz con pollo-1" translatesAutoresizingMaskIntoConstraints="NO" id="l4m-uw-7pX">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="8Nd-Ii-5s6"/>
+                                    <constraint firstAttribute="height" constant="100" id="gXd-fT-ESu"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arroz con pollo-2" translatesAutoresizingMaskIntoConstraints="NO" id="FOD-KB-3kh">
+                                <rect key="frame" x="0.0" y="100" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="3eJ-e2-mkF"/>
+                                    <constraint firstAttribute="height" constant="100" id="XJh-HB-3Wx"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arroz con pollo-3" translatesAutoresizingMaskIntoConstraints="NO" id="wxp-8y-cnA">
+                                <rect key="frame" x="0.0" y="201" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="pr5-Ma-3IX"/>
+                                    <constraint firstAttribute="height" constant="100" id="qEY-6l-KhB"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="l4m-uw-7pX" firstAttribute="leading" secondItem="wxp-8y-cnA" secondAttribute="leading" id="1NX-cp-lcx"/>
+                            <constraint firstItem="FOD-KB-3kh" firstAttribute="top" secondItem="l4m-uw-7pX" secondAttribute="bottom" id="5Cc-zr-9g3"/>
+                            <constraint firstItem="l4m-uw-7pX" firstAttribute="top" secondItem="afD-5i-f8j" secondAttribute="top" id="8vA-XO-NeN"/>
+                            <constraint firstItem="wxp-8y-cnA" firstAttribute="top" secondItem="FOD-KB-3kh" secondAttribute="bottom" constant="1" id="EfZ-Yt-hRQ"/>
+                            <constraint firstItem="l4m-uw-7pX" firstAttribute="leading" secondItem="FOD-KB-3kh" secondAttribute="leading" id="Niv-2o-FuY"/>
+                            <constraint firstItem="l4m-uw-7pX" firstAttribute="leading" secondItem="afD-5i-f8j" secondAttribute="leading" id="Zh7-Gd-SwO"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="300" height="300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G8g-wB-gZv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="534" y="631"/>
+        </scene>
+        <!--Empanadas de Carne-->
+        <scene sceneID="qbc-CL-H2E">
+            <objects>
+                <viewController id="IoE-k2-cKN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WHG-nF-jOS"/>
+                        <viewControllerLayoutGuide type="bottom" id="77f-qY-I2z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pfd-6H-mrz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Empanadas de carne" translatesAutoresizingMaskIntoConstraints="NO" id="sJb-XU-sAg">
+                                <rect key="frame" x="20" y="72" width="291" height="145"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sJb-XU-sAg" secondAttribute="height" multiplier="291:145" id="ZUb-ln-h4l"/>
+                                    <constraint firstAttribute="height" constant="145" id="yZl-OO-aHV"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgO-vc-d6g">
+                                <rect key="frame" x="531" y="187" width="49" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="98K-8G-BId"/>
+                                    <constraint firstAttribute="height" constant="30" id="ulM-PF-nNs"/>
+                                </constraints>
+                                <state key="normal" title="Galeria"/>
+                                <connections>
+                                    <segue destination="tWH-BC-xXD" kind="popoverPresentation" popoverAnchorView="jgO-vc-d6g" id="aja-5Z-nmb">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RgL-PO-pTd">
+                                <rect key="frame" x="20" y="280" width="580" height="156"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="156" id="eOx-ep-TGr"/>
+                                </constraints>
+                                <string key="text">En México crecí con panaderías alrededor, donde siempre vendían empanadas dulces. Las que más recuerdo son las rellenas con manzana, piña o crema. Pero nunca olvidaré la empanada que probé cuando era adolescente. Tenía aceitunas, huevo duro y un par de uvas pasas. ¡Qué genialidad! En aquel entonces no tenía ni idea de que estaba probando una tradicional empanada argentina. Ahora de grande quiero volver a saborear una empanada de esas, pero como es complicado ir hasta Argentina solo para comer más, decidí preparar la receta en casa. Prepara una tanda extra, el placer es demasiado intenso como para no compartirlo con tus amigos y familiares.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckp-lk-FTc">
+                                <rect key="frame" x="20" y="251" width="92" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="O8Q-pe-WN6"/>
+                                    <constraint firstAttribute="width" constant="92" id="fv6-l8-nYU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3d-mj-Y3y">
+                                <rect key="frame" x="197" y="444" width="206" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="206" id="bxQ-D0-QjK"/>
+                                </constraints>
+                                <state key="normal" title="Receta"/>
+                                <connections>
+                                    <segue destination="g3w-VV-hvN" kind="show" id="bem-AI-9x8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jgO-vc-d6g" firstAttribute="trailing" secondItem="pfd-6H-mrz" secondAttribute="trailingMargin" id="1dK-wZ-Jch"/>
+                            <constraint firstItem="RgL-PO-pTd" firstAttribute="top" secondItem="jgO-vc-d6g" secondAttribute="bottom" constant="63" id="411-We-Xqd"/>
+                            <constraint firstItem="G3d-mj-Y3y" firstAttribute="top" secondItem="RgL-PO-pTd" secondAttribute="bottom" constant="8" symbolic="YES" id="8hy-UP-vFB"/>
+                            <constraint firstItem="sJb-XU-sAg" firstAttribute="top" secondItem="WHG-nF-jOS" secondAttribute="bottom" constant="8" symbolic="YES" id="Gup-nw-M4L"/>
+                            <constraint firstItem="ckp-lk-FTc" firstAttribute="top" secondItem="sJb-XU-sAg" secondAttribute="bottom" constant="34" id="P3c-WY-egc"/>
+                            <constraint firstItem="ckp-lk-FTc" firstAttribute="leading" secondItem="pfd-6H-mrz" secondAttribute="leadingMargin" id="Pz7-4N-tKR"/>
+                            <constraint firstItem="sJb-XU-sAg" firstAttribute="bottom" secondItem="jgO-vc-d6g" secondAttribute="bottom" id="Qb7-WX-Otr"/>
+                            <constraint firstItem="sJb-XU-sAg" firstAttribute="leading" secondItem="ckp-lk-FTc" secondAttribute="leading" id="WA6-pW-SzX"/>
+                            <constraint firstItem="jgO-vc-d6g" firstAttribute="trailing" secondItem="pfd-6H-mrz" secondAttribute="trailingMargin" id="YJh-CI-QaU"/>
+                            <constraint firstItem="sJb-XU-sAg" firstAttribute="leading" secondItem="pfd-6H-mrz" secondAttribute="leadingMargin" id="d23-q9-JVZ"/>
+                            <constraint firstItem="sJb-XU-sAg" firstAttribute="leading" secondItem="RgL-PO-pTd" secondAttribute="leading" id="hPR-Rx-fFF"/>
+                            <constraint firstItem="G3d-mj-Y3y" firstAttribute="centerX" secondItem="pfd-6H-mrz" secondAttribute="centerX" id="koE-Ch-Rgg"/>
+                            <constraint firstAttribute="trailing" secondItem="RgL-PO-pTd" secondAttribute="trailing" id="laZ-jQ-zMJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Empanadas de Carne" id="UhU-XV-rgD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qpb-kp-nLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2654" y="-52"/>
+        </scene>
+        <!--Ingredientes y Elaboracion-->
+        <scene sceneID="L1E-uA-34z">
+            <objects>
+                <viewController id="g3w-VV-hvN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dVm-5D-uAY"/>
+                        <viewControllerLayoutGuide type="bottom" id="yRd-ZB-vUu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9YN-58-ltM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bP1-64-9p7">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="2hb-gg-PrP"/>
+                                    <constraint firstAttribute="height" constant="536" id="Q1g-mB-YnT"/>
+                                </constraints>
+                                <string key="text">INGREDIENTES                                                                                                                               
+1 cucharada de aceite de oliva
+1/4 taza de cebolla picada
+2 dientes de ajo machucados
+1 lb de carne molida
+1/2 cucharadita de comino
+1 cucharadita de paprika ahumada
+1 cucharadita de vinagre blanco
+Sal, a gusto
+1/3 taza de uvas pasas
+1/3 taza de aceitunas verdes sin hueso (pitted)
+5 huevos duros, pelados y cortados a la mitad
+Tapas de empanadas o masa lista Pillsbury®
+1 huevo
+1 cucharada de agua
+3 tazas de aceite vegetal                                                                                                                              
+                                                                                                                                            ELABORACION                                                                                                                      
+1
+Calienta el aceite de oliva en una olla grande a temperatura media.
+2
+Agrega cebolla y ajo, y saltea por 5 minutos.
+3
+Agrega la carne molida y condimenta con comino y paprika. Sepárala con una espátula para que se cocine pareja. Cuando quede toda separada en pedacitos pequeños, agrega vinagre y sal a gusto. Mezcla bien.
+4
+Incorpora las pasas, mezcla bien y cocina hasta que la carne comience a tomar un color marroncito. Debería demorar 15-20 minutos.
+5
+Retira del fuego y sácale el jugo a la carne con una cuchara. Coloca la carne en un recipiente, deja que se enfríe un poco, y colócala en el refrigerador por 1 hora.
+6
+Mientras tanto, hierve los huevos, pélalos y córtalos a la mitad. Deja a un costado.
+7
+En un recipiente pequeño, bate un huevo crudo con agua. Deja a un costado.
+8
+Si usas la masa lista Pillsbury®, corta círculos para armar las empanadas. O utiliza las tapas de empanadas que ya están cortadas.
+9
+Rellena cada tapa en el medio con 1 mitad de huevo duro, 1 aceituna sin hueso y 1 cucharada llena de la mezcla de carne y pasas.
+10
+Unta un dedo en la mezcla de huevo con agua y pásalo por el borde de la tapa de empanada. Ciérrala como si fuese un mini taco. Puedes cerrarla mejor con un tenedor, con algún repulgo lindo. Pincha la empanada al medio con un tenedor. Y deja a un costado hasta que las tengas que freír a todas.
+11
+En una olla pequeña, calienta aceite vegetal a temperatura media-alta.
+12
+Coloca cada empanada con cuidado y fríe hasta que la masa se dore, alrededor de 5-10 minutos. Repite con todas las empanadas.
+13
+Sírvelas calientes o tibias.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="bP1-64-9p7" secondAttribute="trailing" constant="-20" id="4JJ-zu-4xS"/>
+                            <constraint firstItem="yRd-ZB-vUu" firstAttribute="top" secondItem="bP1-64-9p7" secondAttribute="bottom" id="UsL-Oc-WuG"/>
+                            <constraint firstItem="bP1-64-9p7" firstAttribute="top" secondItem="dVm-5D-uAY" secondAttribute="bottom" id="sC5-UW-v4t"/>
+                            <constraint firstItem="bP1-64-9p7" firstAttribute="leading" secondItem="9YN-58-ltM" secondAttribute="leadingMargin" constant="-20" id="vwI-lG-5LP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ingredientes y Elaboracion" id="gSy-Xc-Hyh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lPW-Mq-ON8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2654" y="631"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hLG-Ls-HSL">
+            <objects>
+                <viewController id="tWH-BC-xXD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Eud-XE-jgp"/>
+                        <viewControllerLayoutGuide type="bottom" id="F1s-rs-aqJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Axy-KQ-NJk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empanadas-1" translatesAutoresizingMaskIntoConstraints="NO" id="z1Z-FO-Mod">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="YfM-Ob-pz6"/>
+                                    <constraint firstAttribute="height" constant="100" id="y6z-p9-fwf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empanadas-2" translatesAutoresizingMaskIntoConstraints="NO" id="rhF-19-Ov3">
+                                <rect key="frame" x="0.0" y="101" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Ko9-eF-HC6"/>
+                                    <constraint firstAttribute="width" constant="300" id="wzM-jd-Wsu"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empanadas-3" translatesAutoresizingMaskIntoConstraints="NO" id="uLT-cb-4DQ">
+                                <rect key="frame" x="0.0" y="202" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="896-uI-Pte"/>
+                                    <constraint firstAttribute="width" constant="300" id="c15-0B-HDj"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="z1Z-FO-Mod" firstAttribute="top" secondItem="Axy-KQ-NJk" secondAttribute="top" id="DGt-nb-oHw"/>
+                            <constraint firstItem="uLT-cb-4DQ" firstAttribute="top" secondItem="rhF-19-Ov3" secondAttribute="bottom" constant="1" id="L5r-bf-Vwe"/>
+                            <constraint firstItem="z1Z-FO-Mod" firstAttribute="leading" secondItem="uLT-cb-4DQ" secondAttribute="leading" id="UKm-FV-Rel"/>
+                            <constraint firstItem="rhF-19-Ov3" firstAttribute="top" secondItem="z1Z-FO-Mod" secondAttribute="bottom" constant="1" id="Wc2-oF-DMG"/>
+                            <constraint firstItem="z1Z-FO-Mod" firstAttribute="leading" secondItem="rhF-19-Ov3" secondAttribute="leading" id="cbB-MP-nDo"/>
+                            <constraint firstItem="z1Z-FO-Mod" firstAttribute="leading" secondItem="Axy-KQ-NJk" secondAttribute="leading" id="yEa-bz-i2B"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="300" height="300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yNy-kD-HW5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1952" y="631"/>
+        </scene>
+        <!--Ñoquis de Papa-->
+        <scene sceneID="Lib-ql-Ffr">
+            <objects>
+                <viewController id="CSE-HD-o23" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ABe-eT-bl1"/>
+                        <viewControllerLayoutGuide type="bottom" id="8zr-mY-4mN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="w5Q-XG-feB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ñoquis" translatesAutoresizingMaskIntoConstraints="NO" id="Pv5-tm-rDJ">
+                                <rect key="frame" x="20" y="72" width="291" height="145"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="6F9-vW-s36"/>
+                                    <constraint firstAttribute="width" secondItem="Pv5-tm-rDJ" secondAttribute="height" multiplier="291:145" id="IVu-zt-Gqy"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qu4-2G-g5f">
+                                <rect key="frame" x="531" y="187" width="49" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Dqr-Jf-yaA"/>
+                                    <constraint firstAttribute="width" constant="49" id="eHl-00-SAa"/>
+                                </constraints>
+                                <state key="normal" title="Galeria"/>
+                                <connections>
+                                    <segue destination="rJl-T0-guq" kind="popoverPresentation" popoverAnchorView="Qu4-2G-g5f" id="KIP-gd-kbk">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="agn-1k-hxw">
+                                <rect key="frame" x="20" y="280" width="580" height="156"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="156" id="eBs-rU-c9Y"/>
+                                </constraints>
+                                <string key="text">Cuando llegué a Estados Unidos, una de las cosas que más extrañaba era la comida de mi país, y especialmente la que preparaba mi mamá. Una amiga argentina al observar mi añoranza me enseñó a realizar desde cero uno de mis platos favoritos que mi mamá me hacía: Ñoquis Caseros. Recuerdo el día que los hicimos, afuera nevaba y nos juntamos con mi amiga y sus hijos a repartir harina por todos lados entre risas y mates. Los ñoquis son sencillos de hacer, aunque llevan algo de tiempo y muy divertido para hacerlos junto a los niños. Las experiencias de cocina son esos momentos en familia que se convierten en recuerdos inolvidables que fortalecen los lazos y brindan identidad a través de la cultura culinaria. Ojalá te animes a preparar esta receta, una de las especialidades de mi mamá, que por supuesto tiene el sello italiano, característico de la mayoría de las recetas tradicionales de mi país de origen.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tok-8h-sza">
+                                <rect key="frame" x="20" y="251" width="92" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="spv-ga-eRi"/>
+                                    <constraint firstAttribute="height" constant="21" id="sza-lv-c0x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7f-N3-OfE">
+                                <rect key="frame" x="197" y="444" width="206" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="206" id="I5C-B7-gtJ"/>
+                                </constraints>
+                                <state key="normal" title="Receta"/>
+                                <connections>
+                                    <segue destination="lcV-OA-9WP" kind="show" id="iZp-hg-eU4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pv5-tm-rDJ" firstAttribute="leading" secondItem="tok-8h-sza" secondAttribute="leading" id="AGs-9x-hF4"/>
+                            <constraint firstItem="Qu4-2G-g5f" firstAttribute="trailing" secondItem="w5Q-XG-feB" secondAttribute="trailingMargin" id="EFz-tG-jyq"/>
+                            <constraint firstAttribute="trailing" secondItem="agn-1k-hxw" secondAttribute="trailing" id="GUu-PA-ZfE"/>
+                            <constraint firstItem="Pv5-tm-rDJ" firstAttribute="leading" secondItem="agn-1k-hxw" secondAttribute="leading" id="GpY-CA-ZNJ"/>
+                            <constraint firstItem="I7f-N3-OfE" firstAttribute="centerX" secondItem="w5Q-XG-feB" secondAttribute="centerX" id="JJ4-4r-ZVv"/>
+                            <constraint firstItem="Qu4-2G-g5f" firstAttribute="trailing" secondItem="w5Q-XG-feB" secondAttribute="trailingMargin" id="PwQ-hF-a5A"/>
+                            <constraint firstItem="Pv5-tm-rDJ" firstAttribute="leading" secondItem="w5Q-XG-feB" secondAttribute="leadingMargin" id="Qhj-r7-klu"/>
+                            <constraint firstItem="Pv5-tm-rDJ" firstAttribute="bottom" secondItem="Qu4-2G-g5f" secondAttribute="bottom" id="R8l-c9-IkU"/>
+                            <constraint firstItem="I7f-N3-OfE" firstAttribute="top" secondItem="agn-1k-hxw" secondAttribute="bottom" constant="8" symbolic="YES" id="bOD-qD-2h1"/>
+                            <constraint firstItem="tok-8h-sza" firstAttribute="leading" secondItem="w5Q-XG-feB" secondAttribute="leadingMargin" id="m7Q-7l-OkD"/>
+                            <constraint firstItem="agn-1k-hxw" firstAttribute="top" secondItem="Qu4-2G-g5f" secondAttribute="bottom" constant="63" id="qJU-Im-unh"/>
+                            <constraint firstItem="tok-8h-sza" firstAttribute="top" secondItem="Pv5-tm-rDJ" secondAttribute="bottom" constant="34" id="qjJ-Zx-Z7h"/>
+                            <constraint firstItem="Pv5-tm-rDJ" firstAttribute="top" secondItem="ABe-eT-bl1" secondAttribute="bottom" constant="8" symbolic="YES" id="xFY-Hn-kVv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ñoquis de Papa" id="YdM-2Q-SvW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bvW-MZ-g2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4062" y="-52"/>
+        </scene>
+        <!--Ingredientes y Elaboracion-->
+        <scene sceneID="Q4y-9O-3gI">
+            <objects>
+                <viewController id="lcV-OA-9WP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gZy-NH-PT3"/>
+                        <viewControllerLayoutGuide type="bottom" id="KlP-mL-Gh1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aLF-iR-3Nn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mqX-43-Wer">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="536" id="9e0-Fh-oDc"/>
+                                    <constraint firstAttribute="width" constant="600" id="Dzm-Aa-9kc"/>
+                                </constraints>
+                                <string key="text">INGREDIENTES                                                                                                                               2 lbs de papas
+Agua para cocinar las papas y los ñoquis
+2 cucharadas de sal
+1 cucharada de mantequilla
+1/8 cucharadita de nuez moscada
+1 taza de harina multiusos
+
+ELABORACION
+
+1
+Pela y corta las papas en trozos medianos.
+2
+En una olla grande agrega suficiente agua y una cucharada de sal. Una vez que el agua haya hervido, coloca las papas a cocinar a fuego medio alto por 15 a 20 minutos o hasta que estén suaves.
+3
+Cuando las papas estén cocidas, cuela el agua. Agrega la mantequilla y la nuez moscada. Machaca las papas hasta que queden bien deshechas y deja enfriar.
+4
+Cuando el puré esté frío agrega la harina y mezcla delicadamente y muy bien, pero sin amasar para que la masa no quede muy elástica.
+5
+Divide la masa en 4 o 6 partes y formar cordones con ayuda de tus manos previamente enharinadas.
+6
+Corta los cordones en trozos pequeños. Da forma a cada ñoqui deslizando suavemente por un tenedor con el dedo pulgar.
+7
+Coloca una olla con abundante agua y una cucharada de sal a hervir. Cuando rompa el hervor coloca los ñoquis a cocinar. Una vez que los ñoquis comienzan a flotar en la superficie, esperar un minuto y ya están listos.
+8
+Cuela y sirve con salsa de tomate para pasta.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="mqX-43-Wer" secondAttribute="trailing" constant="-20" id="0FV-1P-GMp"/>
+                            <constraint firstItem="KlP-mL-Gh1" firstAttribute="top" secondItem="mqX-43-Wer" secondAttribute="bottom" id="1Fn-fx-cKl"/>
+                            <constraint firstItem="mqX-43-Wer" firstAttribute="top" secondItem="gZy-NH-PT3" secondAttribute="bottom" id="4o7-pr-rV2"/>
+                            <constraint firstItem="mqX-43-Wer" firstAttribute="leading" secondItem="aLF-iR-3Nn" secondAttribute="leadingMargin" constant="-20" id="RCR-zd-Mcf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ingredientes y Elaboracion" id="2TS-pz-4ud"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CUO-EB-M7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4062" y="631"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="W0F-LZ-MrB">
+            <objects>
+                <viewController id="rJl-T0-guq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZIs-8V-geG"/>
+                        <viewControllerLayoutGuide type="bottom" id="yLh-hm-681"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MOt-kb-ffO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ñoquis-1" translatesAutoresizingMaskIntoConstraints="NO" id="XI8-Dl-CWX">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Fzc-5k-vUE"/>
+                                    <constraint firstAttribute="height" constant="100" id="Jbf-gJ-kdh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ñoquis-3" translatesAutoresizingMaskIntoConstraints="NO" id="4zw-ca-dY6">
+                                <rect key="frame" x="0.0" y="202" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="1nO-UQ-Uwu"/>
+                                    <constraint firstAttribute="width" constant="300" id="H75-Lj-jBL"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ñoquis-2" translatesAutoresizingMaskIntoConstraints="NO" id="3Uu-Pf-8WA">
+                                <rect key="frame" x="0.0" y="101" width="300" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="S7J-iA-Ssh"/>
+                                    <constraint firstAttribute="width" constant="300" id="eLT-sf-UNJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XI8-Dl-CWX" firstAttribute="leading" secondItem="4zw-ca-dY6" secondAttribute="leading" id="2TO-4c-Unm"/>
+                            <constraint firstItem="XI8-Dl-CWX" firstAttribute="top" secondItem="MOt-kb-ffO" secondAttribute="top" id="TjR-3b-7wR"/>
+                            <constraint firstItem="XI8-Dl-CWX" firstAttribute="leading" secondItem="MOt-kb-ffO" secondAttribute="leading" id="fNd-xi-0ej"/>
+                            <constraint firstItem="4zw-ca-dY6" firstAttribute="top" secondItem="3Uu-Pf-8WA" secondAttribute="bottom" constant="1" id="hbo-jh-NGb"/>
+                            <constraint firstItem="3Uu-Pf-8WA" firstAttribute="top" secondItem="XI8-Dl-CWX" secondAttribute="bottom" constant="1" id="sk4-EN-EAk"/>
+                            <constraint firstItem="XI8-Dl-CWX" firstAttribute="leading" secondItem="3Uu-Pf-8WA" secondAttribute="leading" id="tEo-q5-omX"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="300" height="300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iJk-e5-Mzx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3370" y="631"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wNb-5S-OPd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hyX-Si-YyM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="899-Rw-cmH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YUh-4Y-ixP" kind="relationship" relationship="rootViewController" id="jZK-MO-fQ4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bWx-09-o5Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-836" y="-52"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0Pi-hz-O9d">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sum-M4-wdJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dEK-d9-QEW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6NP-nz-teB" kind="relationship" relationship="rootViewController" id="bFb-lC-8Fc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5lF-xV-3Ly" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="534" y="-52"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TRu-WS-NlC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="A6W-Xd-bof" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qki-BB-dYR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CSE-HD-o23" kind="relationship" relationship="rootViewController" id="68r-HW-HzK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ac7-uS-Y7B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3370" y="-52"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WR7-Ma-nvc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wbq-ss-E0K" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fbZ-ib-WIZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IoE-k2-cKN" kind="relationship" relationship="rootViewController" id="YIP-qF-1EN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tj4-ys-MzB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1952" y="-52"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Empanadas de carne" width="806" height="453"/>
+        <image name="arroz con pollo" width="806" height="453"/>
+        <image name="arroz con pollo-1" width="286" height="176"/>
+        <image name="arroz con pollo-2" width="267" height="189"/>
+        <image name="arroz con pollo-3" width="257" height="196"/>
+        <image name="empanadas-1" width="225" height="225"/>
+        <image name="empanadas-2" width="300" height="168"/>
+        <image name="empanadas-3" width="275" height="183"/>
+        <image name="guiso_cordero" width="567" height="425"/>
+        <image name="ñoquis" width="806" height="453"/>
+        <image name="ñoquis-1" width="347" height="145"/>
+        <image name="ñoquis-2" width="200" height="191"/>
+        <image name="ñoquis-3" width="260" height="194"/>
+        <image name="receta-cordero" width="259" height="194"/>
+        <image name="receta-cordero1" width="259" height="194"/>
+        <image name="receta-cordero2" width="275" height="183"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="8P8-3Y-5dq"/>
+        <segue reference="D6W-6D-Cn7"/>
+    </inferredMetricsTieBreakers>
+</document>
